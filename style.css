@@ -1,0 +1,83 @@
+html{
+    background: linear-gradient(#ffffff 0%, #C6CAFC 100%);
+    height: 100%;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1{
+   color: #6370F7;
+   text-align: start; 
+}
+
+.area_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+::placeholder{
+    color:#6370F7;
+}
+
+
+#nome,
+#sobrenome{
+    background-color:#E8EAFE ;
+    width: 100%;
+}
+
+#email,
+#telefone{
+    background-color: #DDE0FD;
+    width: 100%;
+}
+
+#endereco{
+   background-color: #C6CAFC;
+   width: 100%;
+}
+
+#texto{
+    background-color: #A3ABFA;
+    width: 100%;
+}
+
+#submit{
+    background-color: #1A2DF3;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.area_endereco,
+.area_nome,
+.area_contato,
+.area_texto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

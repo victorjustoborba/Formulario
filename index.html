@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <div class="area_form">
+            <h1>Contate-nos</h1>
+                <div class="area_nome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                </div>
+                <div class="area_contato">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="tel" id="telefone" name="telefone" maxlength="14" minlength="11" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}" placeholder="Telefone">
+                </div>
+                <div class="area_endereco">
+                    <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+                </div>
+                <div class="area_texto">
+                    <input type="text" name="text" id="texto" maxlength="25" placeholder="Digite sua mensagem aqui">
+                </div>
+                <div class="botao">
+                    <input type="submit" id="submit" value="Enviar">
+                </div>    
+        </div>
+    </form>
+    
+</body>
+</html>
